@@ -1,0 +1,466 @@
+{
+  "nav": {
+    "home": "Home",
+    "brands": "Brands",
+    "sizes": "Sizes",
+    "collection": "Collection",
+    "compare": "Compare Cycles",
+    "gallery": "Gallery",
+    "reviews": "Reviews",
+    "contact": "Contact",
+    "login": "Login",
+    "logout": "Logout",
+    "myProfile": "My Profile",
+    "myEnquiries": "My Enquiries",
+    "noEnquiries": "No enquiries yet",
+    "loadingEnquiries": "Loading enquiries..."
+  },
+  "hero": {
+    "headline1": "Ride Beyond",
+    "headline2": "Limits.",
+    "subheadline": "Premium Cycles For Every Journey",
+    "ctaExplore": "Explore Collection",
+    "ctaContact": "Contact Us",
+    "stat1Label": "Cycle Models",
+    "stat2Label": "Years Trusted",
+    "stat3Label": "Happy Riders",
+    "scroll": "Scroll",
+    "frameMaterial": "Frame Material",
+    "gearRange": "Gear Range",
+    "trustedSince": "Trusted Since 2009",
+    "hydNo1": "Hyderabad's #1 Cycle Store",
+    "frameMaterialValue": "Carbon / Alloy",
+    "gearRangeValue": "7 – 21 Speed"
+  },
+  "brands": {
+    "sectionLabel": "Our Partners",
+    "sectionTitle": "Featured",
+    "sectionTitleHighlight": "Brands",
+    "sectionDescription": "Curated selection of India's most trusted and premium bicycle manufacturers.",
+    "explore": "Explore",
+    "stat1Value": "4",
+    "stat1Label": "Premium Brands",
+    "stat2Value": "100%",
+    "stat2Label": "Authorized Dealer",
+    "stat3Value": "Genuine",
+    "stat3Label": "Warranty Support",
+    "hero": {
+      "tagline": "India's #1 Bicycle Brand",
+      "description": "Legendary performance. Trusted by millions with decades of engineering excellence and innovation."
+    },
+    "vesco": {
+      "tagline": "Built for Indian Roads",
+      "description": "Robust craftsmanship with premium durability. Engineered for comfort across every terrain."
+    },
+    "sunbride": {
+      "tagline": "Elegance in Motion",
+      "description": "Refined aesthetics meet reliable performance. Stylish cycles designed for the modern rider."
+    },
+    "afro": {
+      "tagline": "Bold & Unstoppable",
+      "description": "Bold designs with unmatched value. Adventure-ready cycles for riders who dare to explore."
+    }
+  },
+  "sizes": {
+    "sectionLabel": "Find Your Fit",
+    "sectionTitle": "Shop By",
+    "sectionTitleHighlight": "Size",
+    "sectionDescription": "Choose the perfect wheel size for every age and riding style.",
+    "inch": "inch",
+    "view": "View",
+    "sizeGuide": "Not sure which size fits? Our experts can help.",
+    "getSizeAdvice": "Get Size Advice",
+    "kids": "Kids",
+    "junior": "Junior",
+    "teen": "Teen",
+    "adults": "Adults",
+    "age16": "3 – 5 yrs",
+    "age18": "5 – 7 yrs",
+    "age20": "7 – 10 yrs",
+    "age24": "10 – 14 yrs",
+    "age26": "14+ yrs",
+    "age30": "16+ yrs",
+    "desc16": "Perfect starter bikes for young riders. Safe, lightweight and colourful.",
+    "desc18": "Confident cruising with training-wheel-ready frames and easy grip brakes.",
+    "desc20": "Adventure-ready bikes with geared options and durable alloy wheels.",
+    "desc24": "Sport-tuned geometry with multi-speed gearing for school and beyond.",
+    "desc26": "Full-size performance cycles — mountain, road, hybrid and city options.",
+    "desc30": "Premium large-frame cycles for taller riders. Maximum speed and comfort."
+  },
+  "collection": {
+    "sectionLabel": "Featured Collection",
+    "sectionTitle": "Handpicked",
+    "sectionTitleHighlight": "For You",
+    "sectionDescription": "Explore our curated selection of premium cycles from top brands.",
+    "viewAll": "View All Collection",
+    "noFeatured": "No featured cycles yet",
+    "noFeaturedSub": "Add cycles from the admin panel to showcase them here.",
+    "addToCompare": "Add to Compare",
+    "viewDetails": "View Details",
+    "inStock": "In Stock",
+    "outOfStock": "Out of Stock"
+  },
+  "compare": {
+    "pageTitle": "Compare Cycles",
+    "sectionLabel": "Smart Compare",
+    "sectionTitle": "Compare",
+    "sectionTitleHighlight": "Cycles",
+    "sectionDescription": "Compare up to 3 cycles side-by-side to find your perfect match.",
+    "clearAll": "Clear All",
+    "addMore": "Add More",
+    "emptyTitle": "No cycles added to compare",
+    "emptySubtitle": "Browse our collection and tap \"Add to Compare\" on any cycle.",
+    "browseCollection": "Browse Collection",
+    "brand": "Brand",
+    "size": "Size",
+    "price": "Price",
+    "category": "Category",
+    "gears": "Gears",
+    "frame": "Frame",
+    "color": "Color",
+    "remove": "Remove",
+    "sideBySide": "Side by Side",
+    "cantDecide": "Can't Decide?",
+    "previewDescription": "Not sure which model fits your riding style and budget? Use our side-by-side comparison tool to evaluate two cycles across specs, price, and build quality — instantly.",
+    "startComparing": "Start Comparing",
+    "featuresPrice": "Price Comparison",
+    "featuresSpecs": "Specifications Side-by-Side",
+    "featuresBrand": "Brand & Build Quality",
+    "featuresValue": "Best Value Pick",
+    "statsSpecs": "Specs Compared",
+    "statsBrands": "Brands Available",
+    "statsModels": "Models Stocked",
+    "mockPopular": "Popular",
+    "mockValuePick": "Value Pick",
+    "mockAlloyFrame": "Alloy Frame",
+    "mock21Gears": "21 Gears",
+    "mockWheelSize": "26\"",
+    "compareBarTitle": "Compare",
+    "selectAnother": "+ Select another cycle to compare",
+    "select2": "Select 2 Cycles",
+    "compareNow": "Compare Now",
+    "hide": "Hide",
+    "cycleWord": "Cycle",
+    "comparisonWord": "Comparison",
+    "sideBySideSub": "Side-by-side comparison of selected cycles",
+    "showroomModel": "Showroom Model",
+    "speedValue": "{{count}}-Speed",
+    "wheelValue": "{{size}} Wheel",
+    "frameValue": "{{size}} Frame",
+    "noSpecs": "No specifications provided",
+    "verdictPriceDiff": "Price Difference",
+    "verdictValueChoice": "{{name}} is the more value-focused choice.",
+    "verdictMatchPerfect": "Both cycles match perfectly in pricing.",
+    "select2nd": "Select 2nd cycle",
+    "pick2nd": "Pick 2nd Cycle",
+    "selectedCount": "{{count}} of 2 cycles selected",
+    "pickMore": "You have selected {{name}}. Add one more cycle from the collection to compare.",
+    "readyCompare": "Ready to compare! {{c1}} vs {{c2}}",
+    "added": "Added"
+  },
+  "gallery": {
+    "sectionLabel": "Gallery",
+    "sectionTitle": "Our",
+    "sectionTitleHighlight": "Showroom",
+    "sectionDescription": "Step into our world-class showroom experience.",
+    "photos": "photos",
+    "filtersAll": "All Showcase",
+    "filtersShowroom": "Showroom Interior",
+    "filtersCycles": "Premium Cycles",
+    "filtersRiders": "Our Riders",
+    "categories": {
+      "showroom": "Showroom",
+      "cycles": "Cycles",
+      "riders": "Riders"
+    },
+    "images": {
+      "img1": {
+        "title": "Hero Sprint Pro Display",
+        "desc": "The flagship Hero Sprint Pro cycle displayed on our modern showroom stand."
+      },
+      "img2": {
+        "title": "Vesco Road Beast",
+        "desc": "Premium aerodynamics and lightweight carbon frame engineered for high velocity."
+      },
+      "img3": {
+        "title": "Sun Bride Urban Showcase",
+        "desc": "State-of-the-art hybrid cycle configured at our showroom fitting station."
+      },
+      "img4": {
+        "title": "Afro Alpha Trailblazer",
+        "desc": "Equipped with heavy-duty mountain suspension and all-terrain traction control."
+      },
+      "img5": {
+        "title": "Happy Rider on City Trails",
+        "desc": "A proud customer exploring the Hyderabad trails on their new Laxmi cycle."
+      },
+      "img6": {
+        "title": "Showroom Interior Glow",
+        "desc": "Modern industrial showroom styling with ambient highlights and displays."
+      },
+      "img7": {
+        "title": "Vesco Special Edition",
+        "desc": "Exquisite attention to frame detailing and premium design craftsmanship."
+      },
+      "img8": {
+        "title": "Laxmi Cycling Club Ride",
+        "desc": "Weekend group rides connecting cycle enthusiasts across the community."
+      }
+    }
+  },
+  "reviews": {
+    "sectionLabel": "Reviews",
+    "sectionTitle": "What Our Riders Say",
+    "sectionDescription": "Real feedback from cycling enthusiasts who trust Laxmi Cycles Store for their riding journeys.",
+    "verifiedPurchase": "Verified Purchase",
+    "fallbackComments": {
+      "c1": "Excellent service! Got my Hero MTB cycle at a great price. The staff was very helpful and knowledgeable. The collection is outstanding.",
+      "c2": "Beautiful showroom! My daughter loves her new kids cycle. Quality is top-notch and the sizing guide helped us pick the absolute perfect model.",
+      "c3": "Best cycle store in Hyderabad. Wide variety of models, honest pricing, and extremely quick delivery. Extremely satisfied with my Vesco Hybrid!"
+    }
+  },
+  "contact": {
+    "sectionLabel": "Contact",
+    "sectionTitle": "Visit Our Store Today",
+    "sectionDescription": "Drop by our luxury showroom to test ride our premium collection or reach out online for instant sales and service support.",
+    "storeAddress": "Store Address",
+    "phoneNumber": "Phone Number",
+    "whatsapp": "WhatsApp Enquiry",
+    "email": "Email Support",
+    "businessHours": "Business Hours",
+    "monSat": "Monday - Saturday:",
+    "sunday": "Sunday:",
+    "whatsappMessage": "Hello Laxmi Cycles Store,\nI have a general enquiry about your collection.\nPlease assist.",
+    "getInTouch": "Get in Touch",
+    "visitShowroom": "Visit Our Showroom",
+    "chatWhatsapp": "Chat on WhatsApp — Fastest Response",
+    "sendMessageTitle": "Send a Message",
+    "replyTime": "We'll reply within 24 hours",
+    "invalidEmail": "Invalid email",
+    "invalidPhone": "Enter valid 10-digit mobile",
+    "phoneRequired": "Phone required",
+    "emailRequired": "Email required",
+    "nameRequired": "Name is required",
+    "messageRequired": "Message is required",
+    "sending": "Sending...",
+    "sendMessageBtn": "Send Message",
+    "loginRequired": "Please login to send a message",
+    "sendSuccess": "Message sent! We'll get back to you soon.",
+    "sendError": "Failed to send message",
+    "messageLabel": "Message",
+    "messagePlaceholder": "How can we help you?"
+  },
+  "footer": {
+    "tagline": "Your premier destination for quality cycles. Experience the finest selection of bikes from top brands in our state-of-the-art showroom.",
+    "quickLinks": "Quick Links",
+    "categories": "Categories",
+    "home": "Home",
+    "ourCycles": "Our Cycles",
+    "aboutUs": "About Us",
+    "contact": "Contact",
+    "mountainBikes": "Mountain Bikes",
+    "roadBikes": "Road Bikes",
+    "kidsCycles": "Kids Cycles",
+    "electricCycles": "Electric Cycles",
+    "sportsCycles": "Sports Cycles",
+    "showroomHours": "SHOWROOM HOURS",
+    "monSat": "Mon–Sat:",
+    "sunday": "Sunday:",
+    "copyright": "Laxmi Cycles Store. All rights reserved."
+  },
+  "login": {
+    "brandTagline": "Premium Ride Hub",
+    "welcomeBack": "Welcome Back",
+    "createAccount": "Create Account",
+    "resetPassword": "Reset Password",
+    "subtitleLogin": "Unlock exclusive custom cycles",
+    "subtitleSignup": "Join the premium cycle community",
+    "subtitleForgot": "Enter your details to reset credentials",
+    "fullName": "Full Name",
+    "fullNamePlaceholder": "John Doe",
+    "emailAddress": "Email Address",
+    "emailPlaceholder": "you@example.com",
+    "password": "Password",
+    "newPassword": "New Password",
+    "forgot": "Forgot?",
+    "processing": "Processing...",
+    "loginBtn": "LOGIN",
+    "signupBtn": "SIGN UP",
+    "resetBtn": "RESET PASSWORD",
+    "noAccount": "Don't have an account?",
+    "signUp": "Sign Up",
+    "haveAccount": "Already have an account?",
+    "logIn": "Log In",
+    "backToLogin": "Back to login",
+    "nameRequired": "Name is required",
+    "emailRequired": "Email is required",
+    "passwordRequired": "Password is required",
+    "newPasswordRequired": "New password is required",
+    "minLength": "Must be at least 6 characters",
+    "loginSuccess": "Login Successful! Welcome back!",
+    "loginSuccessAdmin": "Login Successful! Welcome back, Admin!",
+    "signupSuccess": "Account Created Successfully!",
+    "resetSuccess": "Password updated successfully! Please log in.",
+    "actionFailed": "Action failed",
+    "errorInvalidCredentials": "❌ Invalid email or password",
+    "errorAccountNotFound": "❌ Account not found",
+    "errorUserExists": "❌ User already exists with this email"
+  },
+  "cycles": {
+    "pageTitle": "Our Cycles",
+    "filterBrand": "Brand",
+    "filterSize": "Size",
+    "filterCategory": "Category",
+    "sortBy": "Sort By",
+    "allBrands": "All Brands",
+    "allSizes": "All Sizes",
+    "allCategories": "All Categories",
+    "noResults": "No cycles found",
+    "noResultsSub": "Try adjusting your filters.",
+    "addToCompare": "Add to Compare",
+    "viewDetails": "View Details",
+    "inStock": "In Stock",
+    "outOfStock": "Out of Stock",
+    "price": "Price",
+    "loading": "Loading cycles...",
+    "categories": {
+      "Mountain": "Mountain",
+      "Road": "Road",
+      "Kids": "Kids",
+      "Sports": "Sports",
+      "Hybrid": "Hybrid",
+      "City": "City",
+      "Electric": "Electric"
+    },
+    "gears": {
+      "Single Speed": "Single Speed",
+      "7-Speed": "7-Speed",
+      "18-Speed": "18-Speed",
+      "21-Speed": "21-Speed"
+    },
+    "availableOnly": "Available Only",
+    "kidsCycles": "Kids' Cycles",
+    "priceLowHigh": "Price: Low-High",
+    "searchPlaceholder": "Search cycles...",
+    "searchPlaceholderDesktop": "Search cycles by name, brand...",
+    "filtersDrawerTitle": "Filters",
+    "sortDrawerTitle": "Sort By",
+    "sortOptions": {
+      "newest": "Newest First",
+      "priceLowHigh": "Price: Low to High",
+      "priceHighLow": "Price: High to Low",
+      "nameAZ": "Name: A-Z"
+    },
+    "whatsapp": "WhatsApp",
+    "checkOutDetails": "Details",
+    "inStockOnly": "In Stock Only",
+    "cyclesFound": "{{count}} cycles found",
+    "clearFilters": "Clear Filters"
+  },
+  "cycleDetail": {
+    "back": "Back",
+    "brand": "Brand",
+    "size": "Size",
+    "price": "Price",
+    "category": "Category",
+    "color": "Color",
+    "gears": "Gears",
+    "frame": "Frame",
+    "inStock": "In Stock",
+    "outOfStock": "Out of Stock",
+    "enquireNow": "Enquire Now",
+    "addToCompare": "Add to Compare",
+    "removeFromCompare": "Remove from Compare",
+    "specifications": "Specifications",
+    "description": "Description",
+    "whatsappEnquiry": "WhatsApp Enquiry",
+    "notFound": "Cycle not found",
+    "enquiryAbout": "Enquiring about:",
+    "messageOptional": "Message (Optional)",
+    "messageOptionalPlaceholder": "Any specific questions or requirements...",
+    "inCompare": "In Compare",
+    "linkCopied": "Link copied!",
+    "relatedCycles": "Related Cycles",
+    "backBtn": "Back to Cycles",
+    "details": "Details",
+    "share": "Share",
+    "enquiry": {
+      "successMsg": "Enquiry sent! We'll contact you shortly.",
+      "failedMsg": "Failed to send enquiry",
+      "loginRequired": "Please login to send an enquiry",
+      "sendBtn": "Send Enquiry"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Retry",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "viewAll": "View All",
+    "noData": "No data available",
+    "success": "Success",
+    "failed": "Failed"
+  },
+  "about": {
+    "storyLabel": "Our Story",
+    "storyTitle": "More Than Just a Cycle Shop",
+    "storyDesc": "Laxmi Cycles Store was built on a simple belief: every person deserves a premium cycling experience. Since 2009, we've been Hyderabad's most trusted destination for quality cycles, expert advice, and unbeatable service.",
+    "valuesTitle": "Our Values",
+    "journeyTitle": "Our Journey",
+    "values": {
+      "v1": {
+        "title": "Quality First",
+        "desc": "We stock only the finest cycles from trusted manufacturers with proven track records."
+      },
+      "v2": {
+        "title": "Customer Focused",
+        "desc": "Your satisfaction is our priority. Our expert staff guides you to the perfect cycle."
+      },
+      "v3": {
+        "title": "Expert Knowledge",
+        "desc": "With 15+ years in the industry, we know cycles inside out and share that expertise."
+      },
+      "v4": {
+        "title": "Passion for Cycling",
+        "desc": "We are cyclists ourselves. That passion drives everything we do at Laxmi Cycles."
+      }
+    },
+    "milestones": {
+      "m1": {
+        "year": "2009",
+        "event": "Laxmi Cycles Store founded in Hyderabad"
+      },
+      "m2": {
+        "year": "2013",
+        "event": "Expanded showroom to 3000 sq.ft premium space"
+      },
+      "m3": {
+        "year": "2017",
+        "event": "Reached 2000+ happy customers milestone"
+      },
+      "m4": {
+        "year": "2020",
+        "event": "Launched online presence and digital catalogue"
+      },
+      "m5": {
+        "year": "2024",
+        "event": "New premium showroom with 200+ cycle models"
+      }
+    }
+  },
+  "stats": {
+    "yearsInBusiness": "Years in Business",
+    "happyCustomers": "Happy Customers",
+    "cycleModels": "Cycle Models",
+    "brandsAvailable": "Brands Available"
+  }
+}

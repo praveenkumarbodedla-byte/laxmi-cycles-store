@@ -1,0 +1,465 @@
+{
+  "nav": {
+    "home": "ਹੋਮ",
+    "brands": "ਬ੍ਰਾਂਡਸ",
+    "sizes": "ਆਕਾਰ",
+    "collection": "ਸੰਗ੍ਰਹਿ",
+    "compare": "ਸਾਈਕਲ ਤੁਲਨਾ",
+    "gallery": "ਗੈਲਰੀ",
+    "reviews": "ਸਮੀਖਿਆਵਾਂ",
+    "contact": "ਸੰਪਰਕ",
+    "login": "ਲੌਗਇਨ",
+    "logout": "ਲੌਗਆਉਟ",
+    "myEnquiries": "ਮੇਰੀਆਂ ਪੁੱਛਗਿੱਛਾਂ",
+    "noEnquiries": "ਅਜੇ ਕੋਈ ਪੁੱਛਗਿੱਛ ਨਹੀਂ",
+    "loadingEnquiries": "ਪੁੱਛਗਿੱਛਾਂ ਲੋਡ ਹੋ ਰਹੀਆਂ ਹਨ..."
+  },
+  "hero": {
+    "headline1": "ਸੀਮਾਵਾਂ ਤੋਂ",
+    "headline2": "ਪਾਰ ਜਾਓ।",
+    "subheadline": "ਹਰ ਸਫ਼ਰ ਲਈ ਪ੍ਰੀਮੀਅਮ ਸਾਈਕਲਾਂ",
+    "ctaExplore": "ਸੰਗ੍ਰਹਿ ਦੇਖੋ",
+    "ctaContact": "ਸੰਪਰਕ ਕਰੋ",
+    "stat1Label": "ਸਾਈਕਲ ਮਾਡਲ",
+    "stat2Label": "ਸਾਲਾਂ ਦਾ ਭਰੋਸਾ",
+    "stat3Label": "ਖੁਸ਼ ਰਾਈਡਰ",
+    "scroll": "ਸਕ੍ਰੋਲ",
+    "frameMaterial": "ਫ੍ਰੇਮ ਸਮੱਗਰੀ",
+    "gearRange": "ਗਿਅਰ ਰੇਂਜ",
+    "trustedSince": "2009 ਤੋਂ ਭਰੋਸੇਯੋਗ",
+    "hydNo1": "ਹੈਦਰਾਬਾਦ ਦਾ #1 ਸਾਈਕਲ ਸਟੋਰ",
+    "frameMaterialValue": "ਕਾਰਬਨ / ਅਲੌਏ",
+    "gearRangeValue": "7 – 21 ਸਪੀਡ"
+  },
+  "brands": {
+    "sectionLabel": "ਸਾਡੇ ਭਾਈਵਾਲ",
+    "sectionTitle": "ਮੁੱਖ",
+    "sectionTitleHighlight": "ਬ੍ਰਾਂਡਸ",
+    "sectionDescription": "ਭਾਰਤ ਦੇ ਸਭ ਤੋਂ ਭਰੋਸੇਮੰਦ ਸਾਈਕਲ ਨਿਰਮਾਤਾਵਾਂ ਦੀ ਚੋਣ।",
+    "explore": "ਦੇਖੋ",
+    "stat1Value": "4",
+    "stat1Label": "ਪ੍ਰੀਮੀਅਮ ਬ੍ਰਾਂਡਸ",
+    "stat2Value": "100%",
+    "stat2Label": "ਅਧਿਕਾਰਤ ਡੀਲਰ",
+    "stat3Value": "ਅਸਲੀ",
+    "stat3Label": "ਵਾਰੰਟੀ ਸਹਾਇਤਾ",
+    "hero": {
+      "tagline": "ਭਾਰਤ ਦਾ #1 ਸਾਈਕਲ ਬ੍ਰਾਂਡ",
+      "description": "ਕਰੋੜਾਂ ਲੋਕਾਂ ਦਾ ਭਰੋਸਾ। ਦਹਾਕਿਆਂ ਦੀ ਇੰਜੀਨੀਅਰਿੰਗ ਸ਼੍ਰੇਸ਼ਠਤਾ।"
+    },
+    "vesco": {
+      "tagline": "ਭਾਰਤੀ ਸੜਕਾਂ ਲਈ ਬਣਾਇਆ",
+      "description": "ਹਰ ਜ਼ਮੀਨ 'ਤੇ ਆਰਾਮ ਲਈ ਇੰਜੀਨੀਅਰਿੰਗ।"
+    },
+    "sunbride": {
+      "tagline": "ਗਤੀ ਵਿੱਚ ਖੂਬਸੂਰਤੀ",
+      "description": "ਆਧੁਨਿਕ ਰਾਈਡਰ ਲਈ ਸਟਾਈਲਿਸ਼ ਸਾਈਕਲਾਂ।"
+    },
+    "afro": {
+      "tagline": "ਦਲੇਰ ਅਤੇ ਅਜੇਯ",
+      "description": "ਖੋਜਣ ਵਾਲੇ ਰਾਈਡਰਾਂ ਲਈ ਸਾਹਸ-ਤਿਆਰ ਸਾਈਕਲਾਂ।"
+    }
+  },
+  "sizes": {
+    "sectionLabel": "ਆਪਣਾ ਫਿੱਟ ਲੱਭੋ",
+    "sectionTitle": "ਆਕਾਰ ਅਨੁਸਾਰ",
+    "sectionTitleHighlight": "ਖਰੀਦੋ",
+    "sectionDescription": "ਹਰ ਉਮਰ ਅਤੇ ਰਾਈਡਿੰਗ ਸ਼ੈਲੀ ਲਈ ਸਹੀ ਪਹੀਆ ਆਕਾਰ ਚੁਣੋ।",
+    "inch": "ਇੰਚ",
+    "view": "ਦੇਖੋ",
+    "sizeGuide": "ਕਿਹੜਾ ਆਕਾਰ ਸਹੀ ਹੈ? ਸਾਡੇ ਮਾਹਰ ਮਦਦ ਕਰਨਗੇ।",
+    "getSizeAdvice": "ਆਕਾਰ ਸਲਾਹ ਲਓ",
+    "kids": "ਬੱਚੇ",
+    "junior": "ਜੂਨੀਅਰ",
+    "teen": "ਕਿਸ਼ੋਰ",
+    "adults": "ਬਾਲਗ",
+    "age16": "3 – 5 ਸਾਲ",
+    "age18": "5 – 7 ਸਾਲ",
+    "age20": "7 – 10 ਸਾਲ",
+    "age24": "10 – 14 ਸਾਲ",
+    "age26": "14+ ਸਾਲ",
+    "age30": "16+ ਸਾਲ",
+    "desc16": "ਛੋਟੇ ਰਾਈਡਰਾਂ ਲਈ ਪਰਫੈਕਟ ਸਟਾਰਟਰ ਬਾਈਕ।",
+    "desc18": "ਟ੍ਰੇਨਿੰਗ-ਵ੍ਹੀਲ-ਰੈਡੀ ਫ੍ਰੇਮ ਨਾਲ।",
+    "desc20": "ਗਿਅਰ ਵਿਕਲਪ ਅਤੇ ਮਜ਼ਬੂਤ ਅਲੌਏ ਪਹੀਆਂ ਨਾਲ।",
+    "desc24": "ਸਕੂਲ ਅਤੇ ਅੱਗੇ ਮਲਟੀ-ਸਪੀਡ ਗਿਅਰਿੰਗ।",
+    "desc26": "ਪਹਾੜ, ਸੜਕ, ਹਾਈਬ੍ਰਿਡ ਅਤੇ ਸ਼ਹਿਰੀ ਵਿਕਲਪ।",
+    "desc30": "ਲੰਬੇ ਰਾਈਡਰਾਂ ਲਈ ਪ੍ਰੀਮੀਅਮ ਸਾਈਕਲਾਂ।"
+  },
+  "collection": {
+    "sectionLabel": "ਚੁਣਿੰਦਾ ਸੰਗ੍ਰਹਿ",
+    "sectionTitle": "ਤੁਹਾਡੇ ਲਈ",
+    "sectionTitleHighlight": "ਚੁਣਿਆ",
+    "sectionDescription": "ਸਿਖਰਲੇ ਬ੍ਰਾਂਡਾਂ ਦੀਆਂ ਪ੍ਰੀਮੀਅਮ ਸਾਈਕਲਾਂ ਦਾ ਸੰਗ੍ਰਹਿ।",
+    "viewAll": "ਸਾਰਾ ਸੰਗ੍ਰਹਿ",
+    "noFeatured": "ਅਜੇ ਕੋਈ ਖਾਸ ਸਾਈਕਲ ਨਹੀਂ",
+    "noFeaturedSub": "ਐਡਮਿਨ ਪੈਨਲ ਤੋਂ ਸਾਈਕਲਾਂ ਜੋੜੋ।",
+    "addToCompare": "ਤੁਲਨਾ ਵਿੱਚ ਜੋੜੋ",
+    "viewDetails": "ਵੇਰਵੇ",
+    "inStock": "ਸਟਾਕ ਵਿੱਚ",
+    "outOfStock": "ਸਟਾਕ ਨਹੀਂ"
+  },
+  "compare": {
+    "pageTitle": "ਸਾਈਕਲ ਤੁਲਨਾ",
+    "sectionLabel": "ਸਮਾਰਟ ਤੁਲਨਾ",
+    "sectionTitle": "ਸਾਈਕਲਾਂ ਦੀ",
+    "sectionTitleHighlight": "ਤੁਲਨਾ ਕਰੋ",
+    "sectionDescription": "ਆਪਣਾ ਸਹੀ ਮੈਚ ਲੱਭਣ ਲਈ 3 ਸਾਈਕਲਾਂ ਦੀ ਤੁਲਨਾ ਕਰੋ।",
+    "clearAll": "ਸਭ ਹਟਾਓ",
+    "addMore": "ਹੋਰ ਜੋੜੋ",
+    "emptyTitle": "ਤੁਲਨਾ ਲਈ ਸਾਈਕਲਾਂ ਨਹੀਂ",
+    "emptySubtitle": "ਕਿਸੇ ਸਾਈਕਲ 'ਤੇ 'ਤੁਲਨਾ ਵਿੱਚ ਜੋੜੋ' ਕਲਿੱਕ ਕਰੋ।",
+    "browseCollection": "ਸੰਗ੍ਰਹਿ ਦੇਖੋ",
+    "brand": "ਬ੍ਰਾਂਡ",
+    "size": "ਆਕਾਰ",
+    "price": "ਕੀਮਤ",
+    "category": "ਸ਼੍ਰੇਣੀ",
+    "gears": "ਗਿਅਰ",
+    "frame": "ਫ੍ਰੇਮ",
+    "color": "ਰੰਗ",
+    "remove": "ਹਟਾਓ",
+    "sideBySide": "ਆਹਮੋ-ਸਾਹਮਣੇ",
+    "cantDecide": "ਫੈਸਲਾ ਨਹੀਂ ਕਰ ਪਾ ਰਹੇ?",
+    "previewDescription": "ਕਿਹੜਾ ਮਾਡਲ ਤੁਹਾਡੇ ਬਜਟ ਅਤੇ ਸਟਾਈਲ ਨਾਲ ਮੇਲ ਖਾਂਦਾ ਹੈ, ਪਤਾ ਨਹੀਂ? ਕੀਮਤ ਅਤੇ ਗੁਣਵੱਤਾ ਦੀ ਤੁਲਨਾ ਕਰਨ ਲਈ ਸਾਡੇ ਟੂਲ ਦੀ ਵਰਤੋਂ ਕਰੋ - ਤੁਰੰਤ।",
+    "startComparing": "ਤੁਲਨਾ ਸ਼ੁਰੂ ਕਰੋ",
+    "featuresPrice": "ਕੀਮਤ ਤੁਲਨਾ",
+    "featuresSpecs": "ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਨਾਲ-ਨਾਲ",
+    "featuresBrand": "ਬ੍ਰਾਂਡ ਅਤੇ ਗੁਣਵੱਤਾ",
+    "featuresValue": "ਸਭ ਤੋਂ ਵਧੀਆ ਚੋਣ",
+    "statsSpecs": "ਤੁਲਨਾ ਕੀਤੀ ਗਈ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ",
+    "statsBrands": "ਉਪਲਬਧ ਬ੍ਰਾਂਡ",
+    "statsModels": "ਸਟਾਕ ਮਾਡਲ",
+    "mockPopular": "ਪ੍ਰਸਿੱਧ",
+    "mockValuePick": "ਵਧੀਆ ਚੋਣ",
+    "mockAlloyFrame": "ਐਲੋਏ ਫਰੇਮ",
+    "mock21Gears": "21 ਗੇਅਰ",
+    "mockWheelSize": "26\"",
+    "compareBarTitle": "ਤੁਲਨਾ ਕਰੋ",
+    "selectAnother": "+ ਤੁਲਨਾ ਕਰਨ ਲਈ ਇਕ ਹੋਰ ਸਾਈਕਲ ਚੁਣੋ",
+    "select2": "2 ਸਾਈਕਲ ਚੁਣੋ",
+    "compareNow": "ਹੁਣੇ ਤੁਲਨਾ ਕਰੋ",
+    "hide": "ਛੁਪਾਓ",
+    "cycleWord": "ਸਾਈਕਲ",
+    "comparisonWord": "ਤੁਲਨਾ",
+    "sideBySideSub": "ਚੁਣੇ ਗਏ ਸਾਈਕਲਾਂ ਦੀ ਨਾਲ-ਨਾਲ ਤੁਲਨਾ",
+    "showroomModel": "ਸ਼ੋਅਰੂਮ ਮਾਡਲ",
+    "speedValue": "{{count}}-ਸਪੀਡ",
+    "wheelValue": "{{size}} ਵ੍ਹੀਲ",
+    "frameValue": "{{size}} ਫਰੇਮ",
+    "noSpecs": "ਕੋਈ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਨਹੀਂ ਦਿੱਤੀਆਂ ਗਈਆਂ",
+    "verdictPriceDiff": "ਕੀਮਤ ਦਾ ਅੰਤਰ",
+    "verdictValueChoice": "{{name}} ਵਧੇਰੇ ਬਜਟ-ਅਨੁਕੂਲ ਚੋਣ ਹੈ।",
+    "verdictMatchPerfect": "ਦੋਵਾਂ ਸਾਈਕਲਾਂ ਦੀਆਂ ਕੀਮਤਾਂ ਬਿਲਕੁਲ ਬਰਾਬਰ ਹਨ।",
+    "select2nd": "ਦੂਜਾ ਸਾਈਕਲ ਚੁਣੋ",
+    "pick2nd": "ਦੂਜਾ ਸਾਈਕਲ ਚੁਣੋ",
+    "selectedCount": "2 ਵਿੱਚੋਂ {{count}} ਸਾਈਕਲ ਚੁਣੇ ਗਏ",
+    "pickMore": "ਤੁਸੀਂ {{name}} ਚੁਣਿਆ ਹੈ। ਤੁਲਨਾ ਕਰਨ ਲਈ ਇਕ ਹੋਰ ਸਾਈਕਲ ਜੋੜੋ।",
+    "readyCompare": "ਤੁਲਨਾ ਲਈ ਤਿਆਰ! {{c1}} ਬਨਾਮ {{c2}}",
+    "added": "jo'Ria gi'a"
+  },
+  "gallery": {
+    "sectionLabel": "ਗੈਲਰੀ",
+    "sectionTitle": "ਸਾਡਾ",
+    "sectionTitleHighlight": "ਸ਼ੋਰੂਮ",
+    "sectionDescription": "ਸਾਡੇ ਵਿਸ਼ਵ-ਪੱਧਰੀ ਸ਼ੋਰੂਮ ਵਿੱਚ ਆਓ।",
+    "photos": "ਫੋਟੋਆਂ",
+    "filtersAll": "ਸਾਰੇ ਸ਼ੋਕੇਸ",
+    "filtersShowroom": "ਸ਼ੋਅਰੂਮ ਅੰਦਰੂਨੀ ਹਿੱਸਾ",
+    "filtersCycles": "ਪ੍ਰੀਮੀਅਮ ਸਾਈਕਲ",
+    "filtersRiders": "ਸਾਡੇ ਰਾਈਡਰ",
+    "categories": {
+      "showroom": "ਸ਼ੋਅਰੂਮ",
+      "cycles": "ਸਾਈਕਲ",
+      "riders": "ਰਾਈਡਰ"
+    },
+    "images": {
+      "img1": {
+        "title": "ਹੀਰੋ ਸਪ੍ਰਿੰਟ ਪ੍ਰੋ ਡਿਸਪਲੇ",
+        "desc": "ਸਾਡੇ ਆਧੁਨਿਕ ਸ਼ੋਅਰੂਮ ਵਿੱਚ ਪ੍ਰਦਰਸ਼ਿਤ ਹੀਰੋ ਸਪ੍ਰਿੰਟ ਪ੍ਰੋ ਸਾਈਕਲ।"
+      },
+      "img2": {
+        "title": "ਵੈਸਕੋ ਰੋਡ ਬੀਸਟ",
+        "desc": "ਤੇਜ਼ ਰਫ਼ਤਾਰ ਲਈ ਤਿਆਰ ਕੀਤਾ ਗਿਆ ਹਲਕਾ ਕਾਰਬਨ ਫਰੇਮ ਸਾਈਕਲ।"
+      },
+      "img3": {
+        "title": "ਸਨ ਬ੍ਰਾਈਡ ਅਰਬਨ ਸ਼ੋਕੇਸ",
+        "desc": "ਸਾਡੇ ਸ਼ੋਅਰੂਮ ਫਿਟਿੰਗ ਸਟੇਸ਼ਨ 'ਤੇ ਰੱਖਿਆ ਹਾਈਬ੍ਰਿਡ ਸਾਈਕਲ।"
+      },
+      "img4": {
+        "title": "ਅਫਰੋ ਅਲਫ਼ਾ ਟ੍ਰੇਲਬਲੇਜ਼ਰ",
+        "desc": "ਹੈਵੀ ਡਿਊਟੀ ਮਾਊਂਟੇਨ ਸਸਪੈਂਸ਼ਨ ਅਤੇ ਟ੍ਰੈਕਸ਼ਨ ਕੰਟਰੋਲ ਨਾਲ ਲੈਸ।"
+      },
+      "img5": {
+        "title": "ਸ਼ਹਿਰ ਦੇ ਰਸਤਿਆਂ 'ਤੇ ਖੁਸ਼ ਰਾਈਡਰ",
+        "desc": "ਆਪਣੇ ਨਵੇਂ ਲਕਸ਼ਮੀ ਸਾਈਕਲ 'ਤੇ ਹੈਦਰਾਬਾਦ ਦੇ ਰਸਤੇ ਲੱਭਦਾ ਇੱਕ ਗਾਹਕ।"
+      },
+      "img6": {
+        "title": "ਸ਼ੋਅਰੂਮ ਅੰਦਰੂਨੀ ਚਮਕ",
+        "desc": "ਆਧੁਨิก ਸ਼ੋਅਰੂਮ ਡਿਜ਼ਾਈਨ ਅਤੇ ਸ਼ਾਨਦาร ਲਾਈਟਿੰਗ ਸਿਸਟਮ।"
+      },
+      "img7": {
+        "title": "ਵੈਸਕੋ ਸਪੈਸ਼ਲ ਐਡੀਸ਼ਨ",
+        "desc": "ਫਰੇਮ ਡਿઝਾਈਨਿੰਗ ਅਤੇ ਪ੍ਰੀਮੀਅਮ ਕਾਰੀਗਰੀ 'ਤੇ ਵਿਸ਼ੇਸ਼ ਧਿਆน।"
+      },
+      "img8": {
+        "title": "ਲਕਸ਼ਮੀ ਸਾਈਕਲਿੰਗ ਕਲੱਬ ਰਾਈਡ",
+        "desc": "ਭਾਈਚਾਰੇ ਦੇ ਸਾਈਕਲ ਪ੍ਰੇਮੀਆਂ ਨੂੰ ਜੋੜਨ ਵਾਲੀ ਵੀਕੈਂਡ ਗਰੁੱਪ ਰਾਈਡ।"
+      }
+    }
+  },
+  "reviews": {
+    "sectionLabel": "ਸਮੀਖਿਆਵਾਂ",
+    "sectionTitle": "ਸਾਡੇ ਰਾਈਡਰ ਕੀ ਕਹਿੰਦੇ ਹਨ",
+    "sectionDescription": "ਲਕਸ਼ਮੀ ਸਾਈਕਲਸ ਸਟੋਰ 'ਤੇ ਭਰੋਸਾ ਕਰਨ ਵਾਲੇ ਸਾਈਕਲਿੰਗ ਪ੍ਰੇਮੀਆਂ ਦੀ ਸੱਚੀ ਰਾਏ।",
+    "verifiedPurchase": "ਤਸਦੀਕ ਖਰੀਦ",
+    "fallbackComments": {
+      "c1": "ਸ਼ਾਨਦਾਰ ਸੇਵਾ! ਮੈਨੂੰ ਮੇਰਾ Hero MTB ਸਾਈਕਲ ਬਹੁਤ ਵਧੀਆ ਕੀਮਤ 'ਤੇ ਮਿਲਿਆ। ਸਟਾਫ ਬਹੁਤ ਮਦਦਗਾਰ ਅਤੇ ਜਾਣਕਾਰ ਸੀ। ਕਲੈਕਸ਼ਨ ਬਹੁਤ ਵਧੀਆ ਹੈ।",
+      "c2": "ਬਹੁਤ ਸੁੰਦਰ ਸ਼ੋਅਰੂਮ! ਮੇਰੀ ਬੇਟੀ ਨੂੰ ਆਪਣਾ ਨਵਾਂ ਕਿਡਜ਼ ਸਾਈਕਲ ਬਹੁਤ ਪਸੰਦ ਆਇਆ। ਗੁਣਵੱਤਾ ਬਹੁਤ ਵਧੀਆ ਹੈ ਅਤੇ ਸਾਈਜ਼ਿੰਗ ਗਾਈਡ ਨੇ ਸਾਨੂੰ ਬਿਲਕੁਲ ਸਹੀ ਮਾਡਲ ਚੁਣਨ ਵਿੱਚ ਮਦਦ ਕੀਤੀ।",
+      "c3": "ਹੈਦਰਾਬਾਦ ਦਾ ਸਭ ਤੋਂ ਵਧੀਆ ਸਾਈਕਲ ਸਟੋਰ। ਬਹੁਤ ਸਾਰੇ ਮਾਡਲ, ਵਾਜਬ ਕੀਮਤਾਂ ਅਤੇ ਬਹੁਤ ਤੇਜ਼ ਡਿਲੀਵਰੀ। ਮੈਂ ਆਪਣੀ Vesco Hybrid ਤੋਂ ਬਹੁਤ ਸੰਤੁਸ਼ਟ ਹਾਂ!"
+    }
+  },
+  "contact": {
+    "sectionLabel": "ਸੰਪਰਕ",
+    "sectionTitle": "ਅੱਜ ਸਾਡਾ ਸਟੋਰ ਦੇਖੋ",
+    "sectionDescription": "ਟੈਸਟ ਰਾਈਡ ਲਈ ਸਾਡੇ ਸ਼ੋਰੂਮ ਆਓ।",
+    "storeAddress": "ਸਟੋਰ ਪਤਾ",
+    "phoneNumber": "ਫ਼ੋਨ ਨੰਬਰ",
+    "whatsapp": "WhatsApp ਪੁੱਛਗਿੱਛ",
+    "email": "ਈਮੇਲ ਸਹਾਇਤਾ",
+    "businessHours": "ਕਾਰੋਬਾਰੀ ਘੰਟੇ",
+    "monSat": "ਸੋਮ - ਸ਼ਨੀ:",
+    "sunday": "ਐਤ:",
+    "whatsappMessage": "ਹੈਲੋ ਲਕਸ਼ਮੀ ਸਾਈਕਲਸ ਸਟੋਰ,\n�ੁਹਾਡੇ ਸੰਗ੍ਰਹਿ ਬਾਰੇ ਮੇਰੀ ਇੱਕ ਸਧਾਰਣ ਪੁੱਛਗਿੱਛ ਹੈ।\nਕਿਰਪਾ ਕਰਕੇ ਮਦਦ ਕਰੋ।",
+    "getInTouch": "ਸੰਪਰਕ ਕਰੋ",
+    "visitShowroom": "ਸਾਡੇ ਸ਼ੋਅਰੂਮ ਦੀ ਯਾਤਰਾ ਕਰੋ",
+    "chatWhatsapp": "ਵਟਸਐਪ 'ਤੇ ਚੈਟ ਕਰੋ - ਸਭ ਤੋਂ ਤੇਜ਼ ਜਵਾਬ",
+    "sendMessageTitle": "ਸੁਨੇਹਾ ਭੇਜੋ",
+    "replyTime": "ਅਸੀਂ 24 ਘੰਟਿਆਂ ਦੇ ਅੰਦਰ ਜਵਾਬ ਦੇਵਾਂਗੇ",
+    "invalidEmail": "ਅਵੈਧ ਈਮੇਲ",
+    "invalidPhone": "ਸਹੀ 10-ਅੰਕਾਂ ਦਾ ਮੋਬਾਈल ਨੰਬਰ ਦਰਜ ਕਰੋ",
+    "phoneRequired": "ਫੋਨ ਨੰਬਰ ਲੋੜੀਂਦਾ ਹੈ",
+    "emailRequired": "ਈਮੇਲ ਲੋੜੀਂਦੀ ਹੈ",
+    "nameRequired": "ਨਾਮ ਲੋੜੀਂਦਾ ਹੈ",
+    "messageRequired": "ਸੁਨੇਹਾ ਲੋੜੀਂਦਾ ਹੈ",
+    "sending": "ਭੇਜਿਆ ਜਾ ਰਿਹਾ ਹੈ...",
+    "sendMessageBtn": "ਸੁਨੇਹਾ ਭੇਜੋ",
+    "loginRequired": "ਸੁਨੇਹਾ ਭੇਜਣ ਲਈ ਕਿਰਪਾ ਕਰਕੇ ਲੌਗਇਨ ਕਰੋ",
+    "sendSuccess": "ਸੁਨੇਹਾ ਭੇਜ ਦਿੱਤਾ ਗਿਆ! ਅਸੀਂ ਜਲਦੀ ਹੀ ਤੁਹਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰਾਂਗੇ।",
+    "sendError": "ਸੁਨੇਹਾ ਭੇਜਣ ਵਿੱਚ ਅਸਫਲ",
+    "messageLabel": "ਸੁਨੇਹਾ",
+    "messagePlaceholder": "ਅਸੀਂ ਤੁਹਾਡੀ ਕੀ ਮਦਦ ਕਰ ਸਕਦੇ ਹਾਂ?"
+  },
+  "footer": {
+    "tagline": "ਗੁਣਵੱਤਾ ਸਾਈਕਲਾਂ ਲਈ ਤੁਹਾਡੀ ਮੁੱਖ ਮੰਜ਼ਿਲ।",
+    "quickLinks": "ਤੇਜ਼ ਲਿੰਕ",
+    "categories": "ਸ਼੍ਰੇਣੀਆਂ",
+    "home": "ਹੋਮ",
+    "ourCycles": "ਸਾਡੀਆਂ ਸਾਈਕਲਾਂ",
+    "aboutUs": "ਸਾਡੇ ਬਾਰੇ",
+    "contact": "ਸੰਪਰਕ",
+    "mountainBikes": "ਮਾਉਂਟੇਨ ਬਾਈਕਸ",
+    "roadBikes": "ਰੋਡ ਬਾਈਕਸ",
+    "kidsCycles": "ਬੱਚਿਆਂ ਦੀਆਂ ਸਾਈਕਲਾਂ",
+    "electricCycles": "ਇਲੈਕਟ੍ਰਿਕ ਸਾਈਕਲਾਂ",
+    "sportsCycles": "ਸਪੋਰਟਸ ਸਾਈਕਲਾਂ",
+    "showroomHours": "ਸ਼ੋਰੂਮ ਘੰਟੇ",
+    "monSat": "ਸੋਮ–ਸ਼ਨੀ:",
+    "sunday": "ਐਤ:",
+    "copyright": "ਲਕਸ਼ਮੀ ਸਾਈਕਲਸ ਸਟੋਰ। ਸਾਰੇ ਹੱਕ ਸੁਰੱਖਿਅਤ।"
+  },
+  "login": {
+    "brandTagline": "ਪ੍ਰੀਮੀਅਮ ਰਾਈਡ ਹੱਬ",
+    "welcomeBack": "ਵਾਪਸ ਜੀ ਆਇਆਂ",
+    "createAccount": "ਖਾਤਾ ਬਣਾਓ",
+    "resetPassword": "ਪਾਸਵਰਡ ਰੀਸੈੱਟ",
+    "subtitleLogin": "ਐਕਸਕਲੂਸਿਵ ਸਾਈਕਲਾਂ ਅਨਲੌਕ ਕਰੋ",
+    "subtitleSignup": "ਪ੍ਰੀਮੀਅਮ ਭਾਈਚਾਰੇ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਵੋ",
+    "subtitleForgot": "ਪ੍ਰਮਾਣ ਪੱਤਰ ਰੀਸੈੱਟ ਲਈ ਜਾਣਕਾਰੀ ਦਿਓ",
+    "fullName": "ਪੂਰਾ ਨਾਮ",
+    "fullNamePlaceholder": "ਰਾਮ ਸ਼ਰਮਾ",
+    "emailAddress": "ਈਮੇਲ",
+    "emailPlaceholder": "you@example.com",
+    "password": "ਪਾਸਵਰਡ",
+    "newPassword": "ਨਵਾਂ ਪਾਸਵਰਡ",
+    "forgot": "ਭੁੱਲ ਗਏ?",
+    "processing": "ਪ੍ਰਕਿਰਿਆ...",
+    "loginBtn": "ਲੌਗਇਨ",
+    "signupBtn": "ਸਾਈਨ ਅੱਪ",
+    "resetBtn": "ਪਾਸਵਰਡ ਰੀਸੈੱਟ",
+    "noAccount": "ਖਾਤਾ ਨਹੀਂ?",
+    "signUp": "ਸਾਈਨ ਅੱਪ",
+    "haveAccount": "ਖਾਤਾ ਹੈ?",
+    "logIn": "ਲੌਗ ਇਨ",
+    "backToLogin": "ਲੌਗਇਨ 'ਤੇ ਵਾਪਸ",
+    "nameRequired": "ਨਾਮ ਜ਼ਰੂਰੀ",
+    "emailRequired": "ਈਮੇਲ ਜ਼ਰੂਰੀ",
+    "passwordRequired": "ਪਾਸਵਰਡ ਜ਼ਰੂਰੀ",
+    "newPasswordRequired": "ਨਵਾਂ ਪਾਸਵਰਡ ਜ਼ਰੂਰੀ",
+    "minLength": "ਘੱਟੋ ਘੱਟ 6 ਅੱਖਰ",
+    "loginSuccess": "ਲੌਗਇਨ ਸਫਲ! ਵਾਪਸ ਜੀ ਆਇਆਂ!",
+    "loginSuccessAdmin": "ਲੌਗਇਨ ਸਫਲ! Admin, ਜੀ ਆਇਆਂ!",
+    "signupSuccess": "ਖਾਤਾ ਸਫਲਤਾਪੂਰਵਕ ਬਣਾਇਆ!",
+    "resetSuccess": "ਪਾਸਵਰਡ ਅੱਪਡੇਟ! ਲੌਗ ਇਨ ਕਰੋ।",
+    "actionFailed": "ਕਾਰਵਾਈ ਅਸਫਲ",
+    "errorInvalidCredentials": "❌ ਅਵੈਧ ਈਮੇਲ ਜਾਂ ਪਾਸਵਰਡ",
+    "errorAccountNotFound": "❌ ਖਾਤਾ ਨਹੀਂ ਮਿਲਿਆ",
+    "errorUserExists": "❌ ਇਸ ਈਮੇਲ ਨਾਲ ਉਪਭੋਗਤਾ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ"
+  },
+  "cycles": {
+    "pageTitle": "ਸਾਡੀਆਂ ਸਾਈਕਲਾਂ",
+    "filterBrand": "ਬ੍ਰਾਂਡ",
+    "filterSize": "ਆਕਾਰ",
+    "filterCategory": "ਸ਼੍ਰੇਣੀ",
+    "sortBy": "ਕ੍ਰਮਬੱਧ",
+    "allBrands": "ਸਾਰੇ ਬ੍ਰਾਂਡ",
+    "allSizes": "ਸਾਰੇ ਆਕਾਰ",
+    "allCategories": "ਸਾਰੀਆਂ ਸ਼੍ਰੇਣੀਆਂ",
+    "noResults": "ਸਾਈਕਲਾਂ ਨਹੀਂ ਮਿਲੀਆਂ",
+    "noResultsSub": "ਫਿਲਟਰ ਬਦਲੋ ਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+    "addToCompare": "ਤੁਲਨਾ ਵਿੱਚ ਜੋੜੋ",
+    "viewDetails": "ਵੇਰਵੇ",
+    "inStock": "ਸਟਾਕ ਵਿੱਚ",
+    "outOfStock": "ਸਟਾਕ ਖਤਮ",
+    "price": "ਕੀਮਤ",
+    "loading": "ਲੋਡ ਹੋ ਰਿਹਾ...",
+    "categories": {
+      "Mountain": "ਮਾਊਂਟੇਨ",
+      "Road": "ਰੋਡ",
+      "Kids": "ਬੱਚੇ",
+      "Sports": "ਸਪੋਰਟਸ",
+      "Hybrid": "ਹਾਈਬ੍ਰਿਡ",
+      "City": "ਸਿਟੀ",
+      "Electric": "ਇਲੈਕਟ੍ਰਿਕ"
+    },
+    "gears": {
+      "Single Speed": "ਸਿੰਗਲ ਸਪੀਡ",
+      "7-Speed": "7-ਸਪੀਡ",
+      "18-Speed": "18-ਸਪੀਡ",
+      "21-Speed": "21-ਸਪੀਡ"
+    },
+    "availableOnly": "ਸਿਰਫ਼ ਉਪਲਬਧ",
+    "kidsCycles": "ਬੱਚਿਆਂ ਦੇ ਸਾਈਕਲ",
+    "priceLowHigh": "ਕੀਮਤ: ਘੱਟ ਤੋਂ ਵੱਧ",
+    "searchPlaceholder": "ਸਾਈਕਲ ਖੋਜੋ...",
+    "searchPlaceholderDesktop": "ਨਾਮ, ਬ੍ਰਾਂਡ ਦੁਆਰਾ ਸਾਈਕਲ ਖੋਜੋ...",
+    "filtersDrawerTitle": "ਫਿਲਟਰ",
+    "sortDrawerTitle": "ਤਰਤੀਬ ਦਿਓ",
+    "sortOptions": {
+      "newest": "ਨਵੇਂ ਮਾਡਲ ਪਹਿਲਾਂ",
+      "priceLowHigh": "ਕੀਮਤ: ਘੱਟ ਤੋਂ ਵੱਧ",
+      "priceHighLow": "ਕੀਮਤ: ਵੱਧ ਤੋਂ ਘੱਟ",
+      "nameAZ": "ਨਾਮ: A-Z"
+    },
+    "whatsapp": "ਵਟਸਐਪ",
+    "checkOutDetails": "ਵੇਰਵੇ",
+    "inStockOnly": "ਸਿਰਫ਼ ਸਟਾਕ ਵਿੱਚ ਉਪਲਬਧ",
+    "cyclesFound": "{{count}} ਸਾਈਕਲ ਮਿਲੇ",
+    "clearFilters": "ਫਿਲਟਰ ਸਾਫ਼ ਕਰੋ"
+  },
+  "cycleDetail": {
+    "back": "ਵਾਪਸ",
+    "brand": "ਬ੍ਰਾਂਡ",
+    "size": "ਆਕਾਰ",
+    "price": "ਕੀਮਤ",
+    "category": "ਸ਼੍ਰੇਣੀ",
+    "color": "ਰੰਗ",
+    "gears": "ਗਿਅਰ",
+    "frame": "ਫ੍ਰੇਮ",
+    "inStock": "ਸਟਾਕ",
+    "outOfStock": "ਸਟਾਕ ਨਹੀਂ",
+    "enquireNow": "ਹੁਣੇ ਪੁੱਛੋ",
+    "addToCompare": "ਤੁਲਨਾ ਵਿੱਚ",
+    "removeFromCompare": "ਤੁਲਨਾ ਤੋਂ ਹਟਾਓ",
+    "specifications": "ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ",
+    "description": "ਵੇਰਵਾ",
+    "whatsappEnquiry": "WhatsApp",
+    "notFound": "ਸਾਈਕਲ ਨਹੀਂ ਮਿਲੀ",
+    "enquiryAbout": "ਪੁੱਛਗਿੱਛ ਦਾ ਵਿਸ਼ਾ:",
+    "messageOptional": "ਸੁਨੇਹਾ (ਵਿਕਲਪਿਕ)",
+    "messageOptionalPlaceholder": "ਕੋਈ ਖਾਸ ਸਵਾਲ ਜਾਂ ਲੋੜਾਂ...",
+    "inCompare": "ਤੁਲਨਾ ਸੂਚੀ ਵਿੱਚ ਹੈ",
+    "linkCopied": "ਲਿੰਕ ਕਾਪੀ ਹੋ ਗਿਆ!",
+    "relatedCycles": "ਸੰਬੰਧਿਤ ਸਾਈਕਲ",
+    "backBtn": "ਸਾਈਕਲਾਂ 'ਤੇ ਵਾਪਸ ਜਾਓ",
+    "details": "ਵੇਰਵੇ",
+    "share": "ਸਾਂਝਾ ਕਰੋ",
+    "enquiry": {
+      "successMsg": "ਪੁੱਛਗਿੱਛ ਭੇਜ ਦਿੱਤੀ ਗਈ! ਅਸੀਂ ਜਲਦੀ ਹੀ ਤੁਹਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰਾਂਗੇ।",
+      "failedMsg": "ਪੁੱਛਗਿੱਛ ਭੇਜਣ ਵਿੱਚ ਅਸਫਲ",
+      "loginRequired": "ਪੁੱਛਗਿੱਛ ਭੇਜਣ ਲਈ ਕਿਰਪਾ ਕਰਕੇ ਲੌਗਇਨ ਕਰੋ",
+      "sendBtn": "ਪੁੱਛਗਿੱਛ ਭੇਜੋ"
+    }
+  },
+  "common": {
+    "loading": "ਲੋਡ...",
+    "error": "ਗਲਤੀ",
+    "retry": "ਦੁਬਾਰਾ",
+    "close": "ਬੰਦ",
+    "save": "ਸੇਵ",
+    "cancel": "ਰੱਦ",
+    "confirm": "ਪੁਸ਼ਟੀ",
+    "delete": "ਮਿਟਾਓ",
+    "edit": "ਸੋਧ",
+    "add": "ਜੋੜੋ",
+    "search": "ਖੋਜ",
+    "filter": "ਫਿਲਟਰ",
+    "sort": "ਕ੍ਰਮ",
+    "viewAll": "ਸਭ",
+    "noData": "ਡੇਟਾ ਨਹੀਂ",
+    "success": "ਸਫਲ",
+    "failed": "ਅਸਫਲ"
+  },
+  "about": {
+    "storyLabel": "ਸਾਡੀ ਕਹਾਣੀ",
+    "storyTitle": "ਸਿਰਫ਼ ਇਕ ਸਾਈਕਲ ਦੀ ਦੁਕਾਨ ਤੋਂ ਕਿਤੇ ਵੱਧ",
+    "storyDesc": "ਲਕਸ਼ਮੀ ਸਾਈਕਲ ਸਟੋਰ ਇੱਕ ਸਧਾਰਨ ਵਿਸ਼ਵਾਸ 'ਤੇ ਬਣਾਇਆ ਗਿਆ ਹੈ: ਹਰ ਵਿਅਕਤੀ ਪ੍ਰੀਮੀਅਮ ਸਾਈਕਲਿੰਗ ਅਨੁਭਵ ਦਾ ਹੱਕਦਾਰ ਹੈ। 2009 ਤੋਂ, ਅਸੀਂ ਗੁਣਵੱਤਾ ਵਾਲੇ ਸਾਈਕਲਾਂ, ਮਾਹਰਾਂ ਦੀ ਸਲਾਹ ਅਤੇ ਵਧੀਆ ਸੇਵਾ ਲਈ ਹੈਦਰਾਬਾਦ ਦਾ ਸਭ ਤੋਂ ਭਰੋਸੇਮੰਦ ਸਥਾਨ ਹਾਂ।",
+    "valuesTitle": "ਸਾਡੇ ਮੁੱਲ",
+    "journeyTitle": "ਸਾਡੀ ਯਾਤਰਾ",
+    "values": {
+      "v1": {
+        "title": "ਗੁਣਵੱਤਾ ਪਹਿਲਾਂ",
+        "desc": "ਅਸੀਂ ਸਿਰਫ਼ ਭਰੋਸੇਯੋਗ ਨਿਰਮਾਤਾਵਾਂ ਤੋਂ ਸਾਬਤ ਗੁਣਵੱਤਾ ਵਾਲੇ ਸਾਈਕਲ ਹੀ ਵੇਚਦੇ ਹਾਂ।"
+      },
+      "v2": {
+        "title": "ਗਾਹਕ ਕੇਂਦਰਿਤ",
+        "desc": "ਤੁਹਾਡੀ ਸੰਤੁਸ਼ਟੀ ਸਾਡੀ ਤਰਜੀਹ ਹੈ। ਸਹੀ ਸਾਈਕਲ ਚੁਣਨ ਵਿੱਚ ਸਾਡੇ ਮਾਹਰ ਤੁਹਾਡੀ ਮਦਦ ਕਰਨਗੇ।"
+      },
+      "v3": {
+        "title": "ਮਾਹਰਾਂ ਦਾ ਗਿਆਨ",
+        "desc": "ਇਸ ਖੇਤਰ ਵਿੱਚ 15+ ਸਾਲਾਂ ਦੇ ਤਜ਼ਰਬੇ ਦੇ ਨਾਲ, ਅਸੀਂ ਸਾਈਕਲਾਂ ਬਾਰੇ ਸਭ ਕੁਝ ਜਾਣਦੇ ਹਾਂ।"
+      },
+      "v4": {
+        "title": "ਸਾਈਕਲਿੰਗ ਲਈ ਜਨੂੰਨ",
+        "desc": "ਅਸੀਂ ਖੁਦ ਸਾਈਕਲ ਸਵਾਰ ਹਾਂ। ਉਹੀ ਜਨੂੰਨ ਲਕਸ਼ਮੀ ਸਾਈਕਲਜ਼ ਵਿੱਚ ਸਾਡੇ ਹਰ ਕੰਮ ਨੂੰ ਪ੍ਰੇਰਿਤ ਕਰਦਾ ਹੈ।"
+      }
+    },
+    "milestones": {
+      "m1": {
+        "year": "2009",
+        "event": "ਹੈਦਰਾਬਾਦ ਵਿੱਚ ਲਕਸ਼ਮੀ ਸਾਈਕਲ ਸਟੋਰ ਦੀ ਸਥਾਪਨਾ"
+      },
+      "m2": {
+        "year": "2013",
+        "event": "ਸ਼ੋਅਰੂਮ ਨੂੰ 3000 ਵਰਗ ਫੁੱਟ ਪ੍ਰੀਮੀਅਮ ਜਗ੍ਹਾ ਵਿੱਚ ਵਧਾਇਆ"
+      },
+      "m3": {
+        "year": "2017",
+        "event": "2000+ ਖੁਸ਼ ਗਾਹਕਾਂ ਦਾ ਪੜਾਅ ਪਾਰ ਕੀਤਾ"
+      },
+      "m4": {
+        "year": "2020",
+        "event": "ਆਨਲਾਈਨ ਮੌਜੂਦਗੀ ਅਤੇ ਡਿਜੀਟਲ ਕੈਟਾਲਾਗ ਸ਼ੁਰੂ ਕੀਤਾ"
+      },
+      "m5": {
+        "year": "2024",
+        "event": "200+ ਸਾਈਕਲ ਮਾਡਲਾਂ ਦੇ ਨਾਲ ਨਵਾਂ ਪ੍ਰੀਮੀਅਮ ਸ਼ੋਅਰੂਮ"
+      }
+    }
+  },
+  "stats": {
+    "yearsInBusiness": "ਕਾਰੋਬਾਰ ਵਿੱਚ ਸਾਲ",
+    "happyCustomers": "ਖੁਸ਼ ਗਾਹਕ",
+    "cycleModels": "ਸਾਈਕਲ ਮਾਡਲ",
+    "brandsAvailable": "ਉਪਲਬਧ ਬ੍ਰਾਂਡ"
+  }
+}
