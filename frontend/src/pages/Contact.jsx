@@ -8,7 +8,7 @@ import api from '../api/axios';
 import { useAuth } from '../context/AuthContext';
 import toast from 'react-hot-toast';
 
-const WHATSAPP_NUMBER = import.meta.env.VITE_WHATSAPP_NUMBER || '919391899088';
+const WHATSAPP_NUMBER = import.meta.env.VITE_WHATSAPP_NUMBER || '919848116926';
 
 export default function Contact() {
   const { t } = useTranslation();
@@ -21,7 +21,7 @@ export default function Contact() {
 
   const contactDetails = [
     { icon: MapPin, label: t('contact.storeAddress'), value: 'GV9Q+GRG, Bhuvanagiri, Telangana 508116', href: 'https://maps.google.com/?q=GV9Q%2BGRG+Bhuvanagiri+Telangana+508116' },
-    { icon: Phone, label: t('contact.phoneNumber'), value: '+91 93918 99088', href: 'tel:+919391899088' },
+    { icon: Phone, label: t('contact.phoneNumber'), value: '+91 98481 16926', href: 'tel:+919848116926' },
     { icon: Mail, label: t('contact.email'), value: 'laxmicycles@gmail.com', href: 'mailto:laxmicycles@gmail.com' },
     { icon: Clock, label: t('contact.businessHours'), value: `${t('contact.monSat')} 9 AM – 8 PM | ${t('contact.sunday')} 10 AM – 6 PM`, href: null },
   ];

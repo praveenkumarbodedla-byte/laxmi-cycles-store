@@ -11,7 +11,7 @@ const STATUS_COLORS = {
   closed: { bg: 'bg-gray-500/10', border: 'border-gray-500/30', text: 'text-gray-400' },
 };
 
-const WHATSAPP_NUMBER = import.meta.env.VITE_WHATSAPP_NUMBER || '919391899088';
+const WHATSAPP_NUMBER = import.meta.env.VITE_WHATSAPP_NUMBER || '919848116926';
 
 function EnquiryDetailModal({ enquiry, onClose, onUpdate }) {
   const [notes, setNotes] = useState(enquiry.adminNotes || '');

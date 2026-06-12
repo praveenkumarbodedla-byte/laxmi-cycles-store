@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { MessageCircle } from 'lucide-react';
 
-const WHATSAPP_NUMBER = import.meta.env.VITE_WHATSAPP_NUMBER || '919391899088';
+const WHATSAPP_NUMBER = import.meta.env.VITE_WHATSAPP_NUMBER || '919848116926';
 const DEFAULT_MSG = encodeURIComponent("Hello Laxmi Cycles Store,\nI am interested in your cycles.\nPlease provide more details.");
 
 export default function WhatsAppButton() {

@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { MapPin, Phone, Mail, Clock, MessageCircle } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
-const WHATSAPP_NUMBER = import.meta.env.VITE_WHATSAPP_NUMBER || '919391899088';
+const WHATSAPP_NUMBER = import.meta.env.VITE_WHATSAPP_NUMBER || '919848116926';
 
 export default function ContactSection() {
   const { t } = useTranslation();
@@ -18,13 +18,13 @@ export default function ContactSection() {
     {
       icon: Phone,
       label: t('contact.phoneNumber'),
-      value: '+91 93918 99088',
-      href: 'tel:+919391899088'
+      value: '+91 98481 16926',
+      href: 'tel:+919848116926'
     },
     {
       icon: MessageCircle,
       label: t('contact.whatsapp'),
-      value: '+91 93918 99088',
+      value: '+91 98481 16926',
       href: `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(t('contact.whatsappMessage'))}`,
       target: '_blank',
       highlight: true

@@ -5,7 +5,7 @@ import { useCompare } from '../../context/CompareContext';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
-const WHATSAPP_NUMBER = import.meta.env.VITE_WHATSAPP_NUMBER || '919391899088';
+const WHATSAPP_NUMBER = import.meta.env.VITE_WHATSAPP_NUMBER || '919848116926';
 
 const PLACEHOLDER_IMAGE = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='150' viewBox='0 0 200 150'%3E%3Crect width='200' height='150' fill='%230A1628'/%3E%3Ccircle cx='70' cy='100' r='30' fill='none' stroke='%230066FF' stroke-width='3' opacity='0.4'/%3E%3Ccircle cx='130' cy='100' r='30' fill='none' stroke='%230066FF' stroke-width='3' opacity='0.4'/%3E%3Ctext x='100' y='140' text-anchor='middle' fill='%23334466' font-size='10'%3ENo Image%3C/text%3E%3C/svg%3E";
 

@@ -15,7 +15,7 @@ import { useAuth } from '../context/AuthContext';
 import { useForm } from 'react-hook-form';
 import toast from 'react-hot-toast';
 
-const WHATSAPP_NUMBER = import.meta.env.VITE_WHATSAPP_NUMBER || '919391899088';
+const WHATSAPP_NUMBER = import.meta.env.VITE_WHATSAPP_NUMBER || '919848116926';
 const PLACEHOLDER = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%230A1628'/%3E%3Ccircle cx='120' cy='200' r='60' fill='none' stroke='%230066FF' stroke-width='8'/%3E%3Ccircle cx='280' cy='200' r='60' fill='none' stroke='%230066FF' stroke-width='8'/%3E%3Cpath d='M120 200L160 120H240L270 175' fill='none' stroke='%2300D4FF' stroke-width='6'/%3E%3C/svg%3E";
 
 function EnquiryForm({ cycle, onClose }) {

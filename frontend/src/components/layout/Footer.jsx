@@ -4,7 +4,7 @@ import { MessageCircle, Phone, Mail, MapPin, Instagram, Facebook, Youtube } from
 import { useTranslation } from 'react-i18next';
 import LogoMark from './LogoMark';
 
-const WHATSAPP_NUMBER = import.meta.env.VITE_WHATSAPP_NUMBER || '919391899088';
+const WHATSAPP_NUMBER = import.meta.env.VITE_WHATSAPP_NUMBER || '919848116926';
 
 export default function Footer() {
   const { t } = useTranslation();
@@ -53,12 +53,12 @@ export default function Footer() {
               <a href={`https://wa.me/${WHATSAPP_NUMBER}`} target="_blank" rel="noopener noreferrer"
                 className="flex items-center gap-3 text-gray-400 hover:text-green-400 transition-colors text-sm">
                 <MessageCircle size={16} className="text-green-400 flex-shrink-0" />
-                +91 93918 99088
+                +91 98481 16926
               </a>
-              <a href="tel:+919391899088"
+              <a href="tel:+919848116926"
                 className="flex items-center gap-3 text-gray-400 hover:text-white transition-colors text-sm">
                 <Phone size={16} className="text-primary flex-shrink-0" />
-                +91 93918 99088
+                +91 98481 16926
               </a>
               <a href="mailto:laxmicycles@gmail.com"
                 className="flex items-center gap-3 text-gray-400 hover:text-white transition-colors text-sm">
