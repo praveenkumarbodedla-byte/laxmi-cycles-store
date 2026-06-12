@@ -65,6 +65,9 @@ const login = async (req, res, next) => {
       });
     }
 
+    console.log('MODEL:', User.modelName);
+    console.log('COLLECTION:', User.collection.name);
+
     const user = await User.findOne({ email }).select('+password');
 
     if (!user) {
