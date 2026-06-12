@@ -8,7 +8,7 @@ import toast from 'react-hot-toast';
 import LogoMark from '../../components/layout/LogoMark';
 
 export default function AdminLogin() {
-  const { login, user, isAdmin } = useAuth();
+  const { login, logout, user, isAdmin } = useAuth();
   const navigate = useNavigate();
   const [showPassword, setShowPassword] = useState(false);
   const { register, handleSubmit, formState: { errors, isSubmitting } } = useForm();
@@ -17,7 +17,11 @@ export default function AdminLogin() {
 
   const onSubmit = async ({ email, password }) => {
     try {
-      await login(email, password, 'admin');
+      const response = await login(email, password);
+      if (response.user.role !== 'admin') {
+        logout();
+        throw new Error('Access denied: Admin role required');
+      }
       toast.success('Welcome back, Admin!');
       navigate('/admin');
     } catch (err) {

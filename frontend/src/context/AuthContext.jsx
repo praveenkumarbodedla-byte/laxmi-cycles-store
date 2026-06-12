@@ -49,11 +49,15 @@ export const AuthProvider = ({ children }) => {
   }, []);
 
 const login = async (email, password) => {
+  console.log('FRONTEND LOGIN REQUEST STARTED:', email);
   try {
     const response = await api.post('/api/auth/login', {
       email,
       password
     });
+
+    console.log('FRONTEND LOGIN RESPONSE STATUS:', response.status);
+    console.log('FRONTEND LOGIN RESPONSE DATA:', response.data);
 
     if (response.data.success) {
       const { token, user: loggedUser } = response.data;
@@ -64,11 +68,13 @@ const login = async (email, password) => {
       setUser(loggedUser);
       setIsAdmin(loggedUser.role === 'admin');
 
+      console.log('FRONTEND LOGIN SUCCESSFUL, ROLE:', loggedUser.role);
       return response.data;
     }
 
     throw new Error('Login failed');
   } catch (error) {
+    console.error('FRONTEND LOGIN ERROR OCCURRED:', error.response?.data || error.message);
     const errMsg =
       error.response?.data?.message ||
       error.message ||

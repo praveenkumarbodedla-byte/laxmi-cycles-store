@@ -57,14 +57,26 @@ const login = async (req, res, next) => {
   try {
     const { email, password } = req.body;
 
+    console.log('LOGIN ATTEMPT:', email);
+
+    const user = await User.findOne({ email }).select('+password');
+
+    console.log('USER FOUND:', !!user);
+
+    if (user) {
+      console.log('ROLE:', user.role);
+
+      const match = await bcrypt.compare(password, user.password);
+
+      console.log('PASSWORD MATCH:', match);
+    }
+
     if (!email || !password) {
       return res.status(400).json({
         success: false,
         message: 'Please provide email and password'
       });
     }
-
-    const user = await User.findOne({ email }).select('+password');
 
     if (!user) {
       return res.status(401).json({
@@ -83,6 +95,7 @@ const login = async (req, res, next) => {
     }
 
     const token = generateToken(user._id, user.role);
+    console.log('JWT GENERATED:', !!token);
 
     res.json({
       success: true,
@@ -96,6 +109,7 @@ const login = async (req, res, next) => {
     });
 
   } catch (error) {
+    console.error('LOGIN ERROR:', error.message);
     next(error);
   }
 };
