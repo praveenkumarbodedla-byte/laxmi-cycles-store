@@ -13,6 +13,7 @@ const authRoutes = require('./routes/auth');
 const dashboardRoutes = require('./routes/dashboard');
 
 const app = express();
+app.set('trust proxy', 1);
 
 // Connect to MongoDB
 connectDB();
@@ -32,10 +33,10 @@ app.use(cors({
     }
 
     // Check if it is a local localhost environment
-    const isLocalhost = origin.startsWith('http://localhost') || 
-                        origin.startsWith('http://127.0.0.1') ||
-                        origin.startsWith('https://localhost') ||
-                        origin.startsWith('https://127.0.0.1');
+    const isLocalhost = origin.startsWith('http://localhost') ||
+      origin.startsWith('http://127.0.0.1') ||
+      origin.startsWith('https://localhost') ||
+      origin.startsWith('https://127.0.0.1');
 
     // Check for standard private network IP ranges for local development connection
     const isPrivateIP = /^https?:\/\/(192\.168\.\d+\.\d+|10\.\d+\.\d+\.\d+|172\.(1[6-9]|2\d|3[0-1])\.\d+\.\d+)(:\d+)?$/.test(origin);
