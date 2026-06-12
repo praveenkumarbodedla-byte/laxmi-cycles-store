@@ -1,5 +1,6 @@
 const jwt = require('jsonwebtoken');
 const User = require('../models/User');
+const Admin = require('../models/Admin');
 const bcrypt = require('bcryptjs');
 
 // Helper to sign JWT token
@@ -65,19 +66,24 @@ const login = async (req, res, next) => {
       });
     }
 
-    console.log('MODEL:', User.modelName);
-    console.log('COLLECTION:', User.collection.name);
+    console.log('MODEL:', Admin.modelName);
+    console.log('COLLECTION:', Admin.collection.name);
+    let account = await Admin.findOne({ email }).select('+password');
 
-    const user = await User.findOne({ email }).select('+password');
+    if (!account) {
+      console.log('MODEL:', User.modelName);
+      console.log('COLLECTION:', User.collection.name);
+      account = await User.findOne({ email }).select('+password');
+    }
 
-    if (!user) {
+    if (!account) {
       return res.status(401).json({
         success: false,
         message: 'Invalid credentials'
       });
     }
 
-    const isMatch = await user.matchPassword(password);
+    const isMatch = await account.matchPassword(password);
 
     if (!isMatch) {
       return res.status(401).json({
@@ -86,16 +92,16 @@ const login = async (req, res, next) => {
       });
     }
 
-    const token = generateToken(user._id, user.role);
+    const token = generateToken(account._id, account.role);
 
     res.json({
       success: true,
       token,
       user: {
-        id: user._id,
-        name: user.name,
-        email: user.email,
-        role: user.role
+        id: account._id,
+        name: account.name,
+        email: account.email,
+        role: account.role
       }
     });
 
@@ -117,7 +123,10 @@ const forgotPassword = async (req, res, next) => {
       return res.status(400).json({ success: false, message: 'Please provide name, email, and new password' });
     }
 
-    const account = await User.findOne({ name, email });
+    let account = await Admin.findOne({ name, email });
+    if (!account) {
+      account = await User.findOne({ name, email });
+    }
 
     if (!account) {
       return res.status(404).json({ success: false, message: 'No matching account found with these details' });

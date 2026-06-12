@@ -1,5 +1,6 @@
 const jwt = require('jsonwebtoken');
 const User = require('../models/User');
+const Admin = require('../models/Admin');
 
 const protect = async (req, res, next) => {
   let token;
@@ -16,7 +17,15 @@ const protect = async (req, res, next) => {
       const decoded = jwt.verify(token, process.env.JWT_SECRET);
 
       // Fetch user from DB
-      const user = await User.findById(decoded.id).select('-password');
+      console.log('MODEL:', Admin.modelName);
+      console.log('COLLECTION:', Admin.collection.name);
+      let user = await Admin.findById(decoded.id).select('-password');
+
+      if (!user) {
+        console.log('MODEL:', User.modelName);
+        console.log('COLLECTION:', User.collection.name);
+        user = await User.findById(decoded.id).select('-password');
+      }
 
       if (!user) {
         return res.status(401).json({ success: false, message: 'Not authorized, user not found' });
@@ -51,7 +60,15 @@ const adminOnly = async (req, res, next) => {
       const decoded = jwt.verify(token, process.env.JWT_SECRET);
 
       // Verify admin role
-      const admin = await User.findById(decoded.id).select('-password');
+      console.log('MODEL:', Admin.modelName);
+      console.log('COLLECTION:', Admin.collection.name);
+      let admin = await Admin.findById(decoded.id).select('-password');
+
+      if (!admin) {
+        console.log('MODEL:', User.modelName);
+        console.log('COLLECTION:', User.collection.name);
+        admin = await User.findById(decoded.id).select('-password');
+      }
       if (!admin) {
         return res.status(401).json({ success: false, message: 'Not authorized, admin not found' });
       }

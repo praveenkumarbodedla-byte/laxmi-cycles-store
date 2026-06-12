@@ -16,6 +16,7 @@ try {
 const mongoose = require('mongoose');
 const Cycle = require('./models/Cycle');
 const User = require('./models/User');
+const Admin = require('./models/Admin');
 
 const MONGO_URI = process.env.MONGODB_URI;
 if (!MONGO_URI) {
@@ -258,8 +259,9 @@ async function seed() {
 
   // Seed Users & Admins
   await User.deleteMany({});
+  await Admin.deleteMany({});
   
-  await User.create({
+  await Admin.create({
     name: 'Laxmi Admin',
     email: 'admin@laxmicycles.com',
     password: 'adminpassword123',
