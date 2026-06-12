@@ -48,26 +48,35 @@ export const AuthProvider = ({ children }) => {
     verifyToken();
   }, []);
 
-  const login = async (email, password, role = 'user') => {
-    try {
-      const endpoint = role === 'admin' ? '/api/auth/admin/login' : '/api/auth/login';
-      const response = await api.post(endpoint, { email, password });
+const login = async (email, password) => {
+  try {
+    const response = await api.post('/api/auth/login', {
+      email,
+      password
+    });
 
-      if (response.data.success) {
-        const { token, user: loggedUser } = response.data;
-        localStorage.setItem('token', token);
-        localStorage.setItem('user', JSON.stringify(loggedUser));
-        setUser(loggedUser);
-        setIsAdmin(loggedUser.role === 'admin');
-        return response.data;
-      } else {
-        throw new Error(response.data.message || 'Login failed');
-      }
-    } catch (error) {
-      const errMsg = error.response?.data?.message || error.message || 'Login failed';
-      throw new Error(errMsg);
+    if (response.data.success) {
+      const { token, user: loggedUser } = response.data;
+
+      localStorage.setItem('token', token);
+      localStorage.setItem('user', JSON.stringify(loggedUser));
+
+      setUser(loggedUser);
+      setIsAdmin(loggedUser.role === 'admin');
+
+      return response.data;
     }
-  };
+
+    throw new Error('Login failed');
+  } catch (error) {
+    const errMsg =
+      error.response?.data?.message ||
+      error.message ||
+      'Login failed';
+
+    throw new Error(errMsg);
+  }
+};
 
   const register = async (name, email, password) => {
     try {

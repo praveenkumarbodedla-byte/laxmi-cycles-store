@@ -23,18 +23,20 @@ export default function Login() {
 
   const onSubmit = async (data) => {
     try {
-      if (mode === 'login') {
-        const isAdminEmail = data.email.trim().toLowerCase() === 'admin@laxmicycles.com';
-        const role = isAdminEmail ? 'admin' : 'user';
-        await login(data.email, data.password, role);
-        if (isAdminEmail) {
-          toast.success(t('login.loginSuccessAdmin'));
-          navigate('/admin');
-        } else {
-          toast.success(t('login.loginSuccess'));
-          navigate('/');
-        }
-      } else if (mode === 'signup') {
+if (mode === 'login') {
+    const response = await login(
+        data.email,
+        data.password
+    );
+
+    toast.success(t('login.loginSuccess'));
+
+    if (response.user.role === 'admin') {
+        navigate('/admin');
+    } else {
+        navigate('/');
+    }
+} else if (mode === 'signup') {
         await signUpUser(data.name, data.email, data.password);
         toast.success(t('login.signupSuccess'));
         navigate('/');
