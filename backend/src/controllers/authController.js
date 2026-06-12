@@ -58,26 +58,14 @@ const login = async (req, res, next) => {
   try {
     const { email, password } = req.body;
 
-    console.log('LOGIN ATTEMPT:', email);
-
-    const user = await User.findOne({ email }).select('+password');
-
-    console.log('USER FOUND:', !!user);
-
-    if (user) {
-      console.log('ROLE:', user.role);
-
-      const match = await bcrypt.compare(password, user.password);
-
-      console.log('PASSWORD MATCH:', match);
-    }
-
     if (!email || !password) {
       return res.status(400).json({
         success: false,
         message: 'Please provide email and password'
       });
     }
+
+    const user = await User.findOne({ email }).select('+password');
 
     if (!user) {
       return res.status(401).json({
@@ -96,7 +84,6 @@ const login = async (req, res, next) => {
     }
 
     const token = generateToken(user._id, user.role);
-    console.log('JWT GENERATED:', !!token);
 
     res.json({
       success: true,
@@ -110,51 +97,11 @@ const login = async (req, res, next) => {
     });
 
   } catch (error) {
-    console.error('LOGIN ERROR:', error.message);
     next(error);
   }
 };
 
-// @desc    Login an admin
-// @route   POST /api/auth/admin/login
-// @access  Public
-const adminLogin = async (req, res, next) => {
-  try {
-    const { email, password } = req.body;
 
-    if (!email || !password) {
-      return res.status(400).json({ success: false, message: 'Please provide email and password' });
-    }
-
-    // Find admin by email
-    const admin = await User.findOne({ email, role: 'admin' }).select('+password');
-
-    if (!admin) {
-      return res.status(401).json({ success: false, message: 'Invalid credentials or access denied' });
-    }
-
-    const isMatch = await admin.matchPassword(password);
-
-    if (!isMatch) {
-      return res.status(401).json({ success: false, message: 'Invalid credentials' });
-    }
-
-    const token = generateToken(admin._id, 'admin');
-
-    res.json({
-      success: true,
-      token,
-      user: {
-        id: admin._id,
-        name: admin.name,
-        email: admin.email,
-        role: 'admin',
-      },
-    });
-  } catch (error) {
-    next(error);
-  }
-};
 
 // @desc    Forgot Password / Reset
 // @route   POST /api/auth/forgot-password
@@ -199,7 +146,6 @@ const getMe = async (req, res, next) => {
 module.exports = {
   register,
   login,
-  adminLogin,
   forgotPassword,
   getMe,
 };
