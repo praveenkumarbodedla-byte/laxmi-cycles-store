@@ -116,6 +116,10 @@ export default function HeroSection() {
       className="relative w-full min-h-screen overflow-hidden flex items-center justify-center "
       style={{ background: '#000508' }}
     >
+      {/* Hidden H1 for SEO and Search Engine Discoverability */}
+      <h1 style={{ position: 'absolute', width: '1px', height: '1px', padding: 0, margin: '-1px', overflow: 'hidden', clip: 'rect(0, 0, 0, 0)', whiteSpace: 'nowrap', border: 0 }}>
+        Laxmi Cycles Store
+      </h1>
 
       {/* ── Video Background ──────────────────────────────────────────────── */}
       <motion.div
